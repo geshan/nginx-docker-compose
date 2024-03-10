@@ -14,3 +14,7 @@ docker compose -f basic.yaml up
 ```
 
 Once the container is up and running, you can hit `http://localhost:8089` to see a sample website for an imaginary Gen AI startup called `Smmrzer` that summarizes text :). The template used is called [Stellar](https://html5up.net/stellar) by [HTML5up](https://html5up.net).
+
+It will look something like the below:
+
+![Smmrzer screenshot](./html5up-stellar/images/smmrzer-screenshot.jpg)
