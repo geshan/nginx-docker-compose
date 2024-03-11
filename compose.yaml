@@ -6,6 +6,8 @@ services:
       target: dev
     ports:
       - "8181:8181"
+    volumes:
+      - ./api/index.js:/src/index.js
   nginx:
     restart: always
     image: nginx:1-alpine
